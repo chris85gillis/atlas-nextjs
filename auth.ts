@@ -1,7 +1,3 @@
-export const config = {
-  runtime: 'nodejs', // Use Node.js runtime instead of Edge
-};
-
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import { fetchUser } from "./lib/data";
